@@ -45,17 +45,21 @@
             android:id="@+id/loginButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
             android:layout_marginEnd="8dp"
             android:layout_weight="1"
-            android:text="Log In" />
+            android:text="Log In"
+            android:textColor="@color/white" />
 
         <Button
             android:id="@+id/cancelButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
             android:layout_marginStart="8dp"
             android:layout_weight="1"
-            android:text="Cancel" />
+            android:text="Cancel"
+            android:textColor="@color/white" />
     </LinearLayout>
 
 </LinearLayout>
